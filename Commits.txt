@@ -1,0 +1,234 @@
+========================================================
+TIPOS MAIS COMUNS DE COMMIT (CONVENTIONAL COMMITS)
+========================================================
+
+O padrão Conventional Commits é muito utilizado
+em projetos profissionais para manter o histórico
+do Git organizado e fácil de entender.
+
+Estrutura padrão:
+
+tipo: descrição da alteração
+
+
+========================================================
+1. FEAT
+========================================================
+
+feat:
+-> Utilizado quando uma NOVA funcionalidade
+   é adicionada ao projeto.
+
+Exemplo:
+
+git commit -m "feat: adiciona tela de login"
+
+git commit -m "feat: cria sistema de cadastro"
+
+
+========================================================
+2. FIX
+========================================================
+
+fix:
+-> Utilizado para CORREÇÃO de bugs ou erros.
+
+Exemplo:
+
+git commit -m "fix: corrige erro no cálculo"
+
+git commit -m "fix: ajusta problema no login"
+
+
+========================================================
+3. DOCS
+========================================================
+
+docs:
+-> Alterações em documentação, anotações,
+   README, arquivos txt e explicações.
+
+Exemplo:
+
+git commit -m "docs: adiciona comandos Bash"
+
+git commit -m "docs: atualiza guia Git"
+
+
+========================================================
+4. STYLE
+========================================================
+
+style:
+-> Alterações visuais ou de formatação
+   sem mudar lógica do código.
+
+Exemplo:
+
+git commit -m "style: ajusta indentação"
+
+git commit -m "style: organiza espaçamento"
+
+
+========================================================
+5. REFACTOR
+========================================================
+
+refactor:
+-> Melhoria ou reorganização do código
+   sem alterar funcionamento.
+
+Exemplo:
+
+git commit -m "refactor: reorganiza funções"
+
+git commit -m "refactor: melhora estrutura"
+
+
+========================================================
+6. TEST
+========================================================
+
+test:
+-> Criação ou alteração de testes.
+
+Exemplo:
+
+git commit -m "test: adiciona teste de login"
+
+git commit -m "test: atualiza validações"
+
+
+========================================================
+7. CHORE
+========================================================
+
+chore:
+-> Tarefas gerais de manutenção que não
+   alteram funcionalidade diretamente.
+
+Exemplo:
+
+git commit -m "chore: atualiza dependências"
+
+git commit -m "chore: configura gitignore"
+
+
+========================================================
+8. PERF
+========================================================
+
+perf:
+-> Melhorias de performance.
+
+Exemplo:
+
+git commit -m "perf: otimiza consulta SQL"
+
+git commit -m "perf: reduz tempo de carregamento"
+
+
+========================================================
+9. BUILD
+========================================================
+
+build:
+-> Alterações relacionadas ao processo
+   de build ou compilação.
+
+Exemplo:
+
+git commit -m "build: ajusta configuração Docker"
+
+
+========================================================
+10. CI
+========================================================
+
+ci:
+-> Alterações em integração contínua
+   (GitHub Actions, pipelines, automações).
+
+Exemplo:
+
+git commit -m "ci: adiciona workflow deploy"
+
+
+========================================================
+EXEMPLOS PRÁTICOS PARA O SEU CASO
+========================================================
+
+Arquivo de comandos Bash:
+
+git commit -m "docs: adiciona comandos Git Bash"
+
+
+Anotações do curso:
+
+git commit -m "docs: cria resumo da aula 01"
+
+
+Primeiro script Python:
+
+git commit -m "feat: cria primeiro script Python"
+
+
+Correção em exercício:
+
+git commit -m "fix: corrige cálculo do estoque"
+
+
+========================================================
+DICAS IMPORTANTES
+========================================================
+
+1. Seja objetivo
+
+Bom:
+-> "docs: adiciona comandos Bash"
+
+Ruim:
+-> "alterações"
+
+
+--------------------------------------------------------
+
+2. Um commit = uma alteração lógica
+
+Evite misturar:
+- documentação
+- correção
+- novas funcionalidades
+
+Tudo no mesmo commit.
+
+
+--------------------------------------------------------
+
+3. Pense no futuro
+
+O histórico do Git serve para:
+- organização
+- manutenção
+- trabalho em equipe
+- portfólio
+- entrevistas
+- auditoria técnica
+
+
+========================================================
+RESUMO RÁPIDO
+========================================================
+
+feat      -> nova funcionalidade
+fix       -> correção
+docs      -> documentação
+style     -> formatação
+refactor  -> reorganização
+test      -> testes
+chore     -> manutenção
+perf      -> performance
+build     -> build/compilação
+ci        -> integração contínua
+
+========================================================

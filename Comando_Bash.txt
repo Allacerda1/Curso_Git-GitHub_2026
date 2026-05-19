@@ -1,0 +1,320 @@
+========================================================
+PRINCIPAIS COMANDOS - GIT BASH + GIT
+========================================================
+
+--------------------------------------------------------
+1. COMANDOS DO TERMINAL (GIT BASH)
+--------------------------------------------------------
+
+pwd
+-> Mostra o diretório atual onde você está.
+
+Exemplo:
+pwd
+
+Saída:
+/d/Teo
+
+
+--------------------------------------------------------
+
+ls
+-> Lista arquivos e pastas do diretório atual.
+
+Exemplo:
+ls
+
+
+--------------------------------------------------------
+
+cd nome_da_pasta
+-> Entra em uma pasta.
+
+Exemplo:
+cd git-aulas
+
+
+--------------------------------------------------------
+
+cd ..
+-> Volta uma pasta acima.
+
+Exemplo:
+cd ..
+
+
+--------------------------------------------------------
+
+cd /d/Teo
+-> Vai diretamente para um caminho específico.
+
+Exemplo:
+cd /d/Teo
+
+
+--------------------------------------------------------
+
+cd ~
+-> Volta para a pasta principal do usuário.
+
+Exemplo:
+cd ~
+
+
+--------------------------------------------------------
+
+mkdir nome_da_pasta
+-> Cria uma nova pasta.
+
+Exemplo:
+mkdir curso-git
+
+
+--------------------------------------------------------
+
+touch arquivo.txt
+-> Cria um arquivo vazio.
+
+Exemplo:
+touch aula1.txt
+
+
+--------------------------------------------------------
+
+rm arquivo.txt
+-> Remove um arquivo.
+
+Exemplo:
+rm aula1.txt
+
+
+--------------------------------------------------------
+
+rm -r nome_pasta
+-> Remove uma pasta inteira.
+
+Exemplo:
+rm -r curso-antigo
+
+
+--------------------------------------------------------
+
+clear
+-> Limpa o terminal.
+
+Exemplo:
+clear
+
+
+--------------------------------------------------------
+
+cat arquivo.txt
+-> Mostra o conteúdo de um arquivo.
+
+Exemplo:
+cat aula1.txt
+
+
+--------------------------------------------------------
+
+history
+-> Mostra histórico de comandos usados.
+
+Exemplo:
+history
+
+
+========================================================
+2. COMANDOS DO GIT
+========================================================
+
+--------------------------------------------------------
+
+git init
+-> Inicializa um repositório Git na pasta atual.
+
+Exemplo:
+git init
+
+
+--------------------------------------------------------
+
+git status
+-> Mostra o estado atual do projeto.
+
+Exemplo:
+git status
+
+
+--------------------------------------------------------
+
+git add arquivo.txt
+-> Adiciona um arquivo específico para versionamento.
+
+Exemplo:
+git add aula1.txt
+
+
+--------------------------------------------------------
+
+git add .
+-> Adiciona TODOS os arquivos alterados.
+
+Exemplo:
+git add .
+
+
+--------------------------------------------------------
+
+git commit -m "mensagem"
+-> Salva alterações no histórico do Git.
+
+Exemplo:
+git commit -m "Criando estrutura inicial"
+
+
+--------------------------------------------------------
+
+git log
+-> Mostra histórico de commits.
+
+Exemplo:
+git log
+
+
+--------------------------------------------------------
+
+git diff
+-> Mostra alterações feitas nos arquivos.
+
+Exemplo:
+git diff
+
+
+--------------------------------------------------------
+
+git branch
+-> Lista branches existentes.
+
+Exemplo:
+git branch
+
+
+--------------------------------------------------------
+
+git checkout nome_branch
+-> Troca para outra branch.
+
+Exemplo:
+git checkout develop
+
+
+--------------------------------------------------------
+
+git checkout -b nova_branch
+-> Cria e entra em uma nova branch.
+
+Exemplo:
+git checkout -b feature-login
+
+
+--------------------------------------------------------
+
+git merge nome_branch
+-> Junta branches.
+
+Exemplo:
+git merge develop
+
+
+========================================================
+3. COMANDOS RELACIONADOS AO GITHUB
+========================================================
+
+--------------------------------------------------------
+
+git clone URL
+-> Baixa um projeto do GitHub.
+
+Exemplo:
+git clone https://github.com/usuario/projeto.git
+
+
+--------------------------------------------------------
+
+git remote add origin URL
+-> Conecta o projeto local ao GitHub.
+
+Exemplo:
+git remote add origin https://github.com/usuario/projeto.git
+
+
+--------------------------------------------------------
+
+git push
+-> Envia alterações para o GitHub.
+
+Exemplo:
+git push
+
+
+--------------------------------------------------------
+
+git pull
+-> Baixa e aplica atualizações do GitHub.
+
+Exemplo:
+git pull
+
+
+--------------------------------------------------------
+
+git fetch
+-> Busca atualizações sem aplicar automaticamente.
+
+Exemplo:
+git fetch
+
+
+========================================================
+4. FLUXO MAIS USADO NO DIA A DIA
+========================================================
+
+git status
+git add .
+git commit -m "Descrição da alteração"
+git push
+
+
+========================================================
+5. CONCEITOS IMPORTANTES
+========================================================
+
+Git Bash
+-> Terminal baseado em Linux dentro do Windows.
+
+Git
+-> Sistema de controle de versão.
+
+GitHub
+-> Plataforma online para armazenar projetos Git.
+
+Commit
+-> Ponto de salvamento/versionamento.
+
+Branch
+-> Linha paralela de desenvolvimento.
+
+
+========================================================
+6. EXEMPLO COMPLETO
+========================================================
+
+mkdir projeto-python
+cd projeto-python
+git init
+touch app.py
+git add .
+git commit -m "Primeiro arquivo Python"
+
+========================================================

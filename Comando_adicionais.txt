@@ -1,0 +1,448 @@
+========================================================
+COMANDOS ADICIONAIS DO GIT
+========================================================
+
+Esses comandos são muito utilizados no dia a dia
+de desenvolvimento e ajudam no controle do projeto,
+histórico e sincronização com GitHub.
+
+========================================================
+1. git clone
+========================================================
+
+git clone URL
+
+-> Baixa um projeto existente do GitHub.
+
+Exemplo:
+
+git clone https://github.com/usuario/projeto.git
+
+
+========================================================
+2. git pull
+========================================================
+
+git pull
+
+-> Baixa e aplica atualizações do repositório remoto.
+
+Exemplo:
+
+git pull
+
+
+========================================================
+3. git push
+========================================================
+
+git push
+
+-> Envia commits locais para o GitHub.
+
+Exemplo:
+
+git push
+
+
+========================================================
+4. git fetch
+========================================================
+
+git fetch
+
+-> Busca atualizações do servidor sem aplicar
+   automaticamente no projeto local.
+
+Exemplo:
+
+git fetch
+
+
+========================================================
+5. git remote -v
+========================================================
+
+git remote -v
+
+-> Mostra os repositórios remotos conectados.
+
+Exemplo:
+
+git remote -v
+
+
+========================================================
+6. git remote add origin
+========================================================
+
+git remote add origin URL
+
+-> Conecta projeto local ao GitHub.
+
+Exemplo:
+
+git remote add origin https://github.com/usuario/projeto.git
+
+
+========================================================
+7. git branch
+========================================================
+
+git branch
+
+-> Lista todas as branches locais.
+
+Exemplo:
+
+git branch
+
+
+========================================================
+8. git branch nome_branch
+========================================================
+
+git branch develop
+
+-> Cria uma nova branch.
+
+Exemplo:
+
+git branch feature-login
+
+
+========================================================
+9. git checkout
+========================================================
+
+git checkout nome_branch
+
+-> Troca para outra branch.
+
+Exemplo:
+
+git checkout develop
+
+
+========================================================
+10. git checkout -b
+========================================================
+
+git checkout -b nova_branch
+
+-> Cria e já entra na nova branch.
+
+Exemplo:
+
+git checkout -b feature-dashboard
+
+
+========================================================
+11. git merge
+========================================================
+
+git merge nome_branch
+
+-> Junta branches.
+
+Exemplo:
+
+git merge develop
+
+
+========================================================
+12. git stash
+========================================================
+
+git stash
+
+-> Guarda alterações temporariamente
+   sem precisar fazer commit.
+
+Exemplo:
+
+git stash
+
+
+========================================================
+13. git stash pop
+========================================================
+
+git stash pop
+
+-> Recupera alterações guardadas no stash.
+
+Exemplo:
+
+git stash pop
+
+
+========================================================
+14. git reset
+========================================================
+
+git reset arquivo.txt
+
+-> Remove arquivo da área de stage.
+
+Exemplo:
+
+git reset aula1.txt
+
+
+========================================================
+15. git reset --hard
+========================================================
+
+git reset --hard
+
+-> Descarta alterações locais COMPLETAMENTE.
+
+ATENÇÃO:
+Esse comando pode apagar alterações sem volta.
+
+Exemplo:
+
+git reset --hard
+
+
+========================================================
+16. git restore
+========================================================
+
+git restore arquivo.txt
+
+-> Restaura arquivo para última versão salva.
+
+Exemplo:
+
+git restore app.py
+
+
+========================================================
+17. git rm
+========================================================
+
+git rm arquivo.txt
+
+-> Remove arquivo do Git e da pasta.
+
+Exemplo:
+
+git rm teste.txt
+
+
+========================================================
+18. git mv
+========================================================
+
+git mv arquivo.txt novo_nome.txt
+
+-> Renomeia ou move arquivos usando Git.
+
+Exemplo:
+
+git mv aula.txt aula_git.txt
+
+
+========================================================
+19. git log --oneline
+========================================================
+
+git log --oneline
+
+-> Mostra histórico resumido dos commits.
+
+Exemplo:
+
+git log --oneline
+
+
+========================================================
+20. git show
+========================================================
+
+git show
+
+-> Mostra detalhes do último commit.
+
+Exemplo:
+
+git show
+
+
+========================================================
+21. git tag
+========================================================
+
+git tag
+
+-> Lista tags do projeto.
+
+Exemplo:
+
+git tag
+
+
+========================================================
+22. git tag v1.0
+========================================================
+
+git tag v1.0
+
+-> Cria uma tag/versionamento.
+
+Exemplo:
+
+git tag v1.0
+
+
+========================================================
+23. git config --global user.name
+========================================================
+
+git config --global user.name "Adriano"
+
+-> Define nome do usuário Git.
+
+Exemplo:
+
+git config --global user.name "Adriano"
+
+
+========================================================
+24. git config --global user.email
+========================================================
+
+git config --global user.email "email@email.com"
+
+-> Define email do usuário Git.
+
+Exemplo:
+
+git config --global user.email "adriano@email.com"
+
+
+========================================================
+25. git config --list
+========================================================
+
+git config --list
+
+-> Mostra todas configurações do Git.
+
+Exemplo:
+
+git config --list
+
+
+========================================================
+26. git branch -M main
+========================================================
+
+git branch -M main
+
+-> Renomeia branch atual para main.
+
+Exemplo:
+
+git branch -M main
+
+
+========================================================
+27. git init
+========================================================
+
+git init
+
+-> Inicializa repositório Git na pasta atual.
+
+Exemplo:
+
+git init
+
+
+========================================================
+28. git status
+========================================================
+
+git status
+
+-> Mostra estado atual dos arquivos.
+
+Exemplo:
+
+git status
+
+
+========================================================
+29. git add .
+========================================================
+
+git add .
+
+-> Adiciona todos arquivos alterados.
+
+Exemplo:
+
+git add .
+
+
+========================================================
+30. git commit -m
+========================================================
+
+git commit -m "mensagem"
+
+-> Salva alterações no histórico.
+
+Exemplo:
+
+git commit -m "docs: adiciona comandos Git"
+
+
+========================================================
+RESUMO DOS MAIS IMPORTANTES
+========================================================
+
+git init
+-> inicia repositório
+
+git status
+-> verifica alterações
+
+git add .
+-> adiciona arquivos
+
+git commit -m
+-> salva alterações
+
+git push
+-> envia para GitHub
+
+git pull
+-> baixa atualizações
+
+git branch
+-> gerencia branches
+
+git checkout
+-> troca branch
+
+git merge
+-> junta branches
+
+git log
+-> histórico de commits
+
+
+========================================================
+FLUXO MAIS USADO
+========================================================
+
+git status
+git add .
+git commit -m "Descrição"
+git push
+
+========================================================

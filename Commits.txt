@@ -1,5 +1,5 @@
 ========================================================
-TIPOS MAIS COMUNS DE COMMIT (CONVENTIONAL COMMITS)
+TIPOS MAIS COMUNS DE COMMIT (CONVENTIONAL COMMITS):
 ========================================================
 
 O padrão Conventional Commits é muito utilizado

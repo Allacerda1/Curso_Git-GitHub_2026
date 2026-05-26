@@ -37,3 +37,21 @@ HTTPSSSHDificuldade pra configurarFácil ✅MédioPede senha toda vez?Às vezesN
 Recomendação: Como você está começando, siga com o HTTPS como o professor mostrou. Quando você já estiver mais confortável com Git e GitHub no geral, aí vale aprender SSH — principalmente se você usar sempre o mesmo computador.
 
 O professor estava certo: SSH é mais prático no dia a dia, mas exige uma configuração inicial que faz mais sentido depois que você já entende o básico.
+
+#Git Flow
+É uma convenção de branches para organizar o desenvolvimento de software com Git.
+Branches principais
+BranchPapelmainCódigo em produção, estáveldevelopCódigo em desenvolvimento, integração contínua
+Branches de suporte
+
+feature/* — novas funcionalidades, criadas a partir da develop
+release/* — preparação para uma nova versão, saem da develop e vão para main
+hotfix/* — correções urgentes em produção, saem da main e voltam para main e develop
+
+
+A branch develop
+É o coração do desenvolvimento ativo. Funciona como uma área de integração onde todas as features concluídas são mescladas antes de irem para produção.
+
+Toda feature nasce dela e volta para ela via merge
+Quando o código está estável e pronto para lançar, uma release é criada a partir dela
+Nunca deve ter código quebrado — é a "produção dos desenvolvedores"
